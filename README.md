@@ -22,5 +22,4 @@ A Java console application that models a basic employee timecard system. It allo
 - `Timecard.java`: Stores data for each week's ending date and working hours for each day of that week.
 - `main.java`: Main class that initializes employees and their timecards and prints report data.
 
-## ✅ Example Output
 
