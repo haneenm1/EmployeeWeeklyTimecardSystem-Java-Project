@@ -1,25 +1,24 @@
-# 🧾 Employee Weekly Timecard System – Java Project
+# 👨‍💼 Employee Timecard Tracker (Java Console App)
 
-## 📌 Description
+## 📋 Overview
+This Java application allows tracking of employee work hours, calculates weekly payments, and provides reports such as:
+- Weekly timecards for each employee.
+- Detection of partial attendance (absentees).
+- Sorting employees by total payment.
 
-A Java console application that models a basic employee timecard system. It allows tracking of:
-- Employees and their working hours.
-- Weekly reports based on worked days.
-- Calculation of total worked hours and weekly payments.
+## 🧱 Structure
+- `Employee.java`: Class with employee details, pay rate, and timecards.
+- `Timecard.java`: Represents weekly work data.
+- `Main2.java`: Initializes data, prints reports, and sorts employees.
 
 ## 💼 Features
 
-- Create and initialize employees.
-- Assign working hours to employees across multiple weeks.
-- Calculate and print:
-  - Number of worked days.
-  - Total hours worked.
-  - Weekly salary.
+1. **Q1 – Print Weekly Reports**  
+   Shows per-week working days, total hours, and weekly salary for each employee.
 
-## 📂 Project Structure
+2. **Q2 – Detect Absentees**  
+   Displays if an employee has worked only 3 days in a given week (e.g., 2 days absent).
 
-- `Eemployee.java`: Represents an employee with fields like employee number, name, gender, hourly pay rate, and timecards.
-- `Timecard.java`: Stores data for each week's ending date and working hours for each day of that week.
-- `main.java`: Main class that initializes employees and their timecards and prints report data.
-
+3. **Q3 – Sort Employees**  
+   Sorts all employees in descending order based on total payment received.
 
